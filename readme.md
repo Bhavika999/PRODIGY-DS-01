@@ -1,43 +1,35 @@
-🚢 Titanic Survival Prediction - EDA & Modeling
-This project is part of my internship work, where I explored the Titanic dataset to perform data analysis and build predictive models. The goal was to understand the factors influencing passenger survival and apply machine learning techniques to predict outcomes.
+🚢 Titanic Survival Data Analysis
+This project is part of my data science internship at Prodigy InfoTech.
+In this task, I performed data cleaning and exploratory data analysis (EDA) on the famous Titanic dataset to uncover survival trends based on features like gender, age, passenger class, and more.
 
-📂 Project Overview
-Dataset: Titanic dataset from Kaggle
+🔧 Tools Used
+Python
+Pandas
+Seaborn
+Matplotlib
+🎯 Goals of the Analysis
+Inspect and understand the structure of the dataset
+Handle missing values and perform feature engineering
+Explore and visualize patterns in survival rates
+Analyze the impact of variables like Sex, Pclass, AgeGroup, Title, and FamilySize on survival
+📊 Key Insights
+Females had higher survival rates than males across most classes.
+Children and first-class passengers had better chances of survival.
+Family size had a U-shaped relation with survival chances.
+Passengers with titles like "Mrs", "Miss", and "Master" had different survival outcomes based on social class.
+📎 Notebook Access
+Click below to run the analysis in Google Colab:
+Open In Colab
 
-Tech Stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+📁 Dataset
+The dataset used is available on Kaggle - Titanic: Machine Learning from Disaster.
 
-Objectives:
+🧠 Learnings
+Improved data preprocessing and feature engineering skills
+Gained deeper insights into data visualization using Seaborn
+Learned how to extract meaningful patterns from real-world datasets
+✍️ Author
+Bhavika Singh
+Data Science Intern at Prodigy InfoTech
+GitHub: Bhavika999
 
-Perform Exploratory Data Analysis (EDA)
-
-Clean and preprocess the dataset
-
-Visualize key patterns and correlations
-
-Build and evaluate machine learning models for survival prediction
-
-🔍 Key Insights
-Gender and class were strong predictors of survival.
-
-Passengers with fewer family members onboard tended to survive more.
-
-Preprocessing like encoding, feature engineering, and imputation improved model performance.
-
-📊 Models Used
-Logistic Regression
-
-Decision Tree
-
-Random Forest
-
-(Add any others if you used them)
-
-📝 Files Included
-Titan.ipynb: The complete Jupyter Notebook with analysis, visualizations, and modeling
-
-README.md: Overview of the project
-
-titanic.csv: Dataset (optional, if you include it)
-
-✅ Results
-Achieved an accuracy score of around XX% (update with your best model score) using the Random Forest model.
